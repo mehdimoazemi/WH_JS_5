@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .title-input {
+            background-color: transparent;
+            border: none;
+            font-size: inherit;
+            outline: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>TODO</h1>
+    <form>
+        <input id="title" type="text" placeholder="title" />
+        <textarea id="desc" placeholder="do somthing" rows="10"></textarea>
+        <button id="submit">submit</button>
+    </form>
+
+    <hr />
+
+    <ul id="main">
+        <li>
+
+            <h3>title</h3>
+            <p>desc</p>
+        </li>
+    </ul>
+
+
+    <div style="
+     background-color: burlywood; 
+    display: flex; 
+    position: fixed; 
+    top: 0;
+    transition: all .3s ease;
+    right: 0;
+    width:100%;
+    right: -100%;
+    " id="alert">
+        <p>
+            simple alrt test
+        </p>
+        <button id="close alert">x</button>
+    </div>
+
+
+    <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
